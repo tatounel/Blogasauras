@@ -1,0 +1,101 @@
+/* All Text */
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+h1 {
+   position: absolute;
+   top: 200px;
+   left: 15px;
+   width: 100%;
+   color: white;
+}
+.basicfont{
+  font-family: "Lato", sans-serif;
+  text-align:center;
+  font-size:15px;
+  color: black;
+}
+
+.bgimg-2 .bgimg-3 .parallaxfont {
+  position:center;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 400px!important;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image */
+.bgimg-1 {
+    position: relative;
+}
+/* Second image (Interests) */
+.bgimg-2 {
+    background-image: url('red.jpeg');
+    min-height: 200px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("flowers.jpeg");
+    min-height: 200px;
+}
+
+/* Profile Pic Image */
+.img-circle{
+    border-radius:50%;
+}
+
+ /* Navigation Bar & Buttons */
+ .navbar{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 1;
+ }
+
+.navbtn {
+    background-color: transparent;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+body{
+  margin:0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.item-padding{
+  padding-top: 8px;
+  padding-bottom: 24px
+  margin-bottom: 16px!important;
+}
+
+/* Comment Box Section */
+
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/* Google Maps Section */
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+}
